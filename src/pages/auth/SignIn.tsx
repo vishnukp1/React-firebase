@@ -29,8 +29,8 @@ const SignIn: React.FC = () => {
   };
 
   return (
-    <div className="flex lg:flex-row xs:flex-col justify-center lg:mx-14 xl:mx-auto pl-[35px] lg:gap-[91px]">
-      <div className="flex flex-col mt-[54px] w-full md:w-[512px]">
+    <div className="flex lg:flex-row xs:flex-col justify-center xs:ml-5 xs:mr-10 md:mx-10 lg:mx-14 xl:mx-auto pl-[35px] lg:gap-[91px]">
+      <div className="flex flex-col mt-[54px] w-full md:w-[512px] xs:-ml-[.3rem] sm:ml-0">
         <div className="-ml-[50px]">
           <Logo />
         </div>
