@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex justify-end md:mr-[104px] mt-12">
+      <div className="flex justify-end md:mr-[104px] mt-12 mr-4 mb-20 md:mb-0">
         <Logo />
       </div>
       <div className="-200 flex justify-center">
