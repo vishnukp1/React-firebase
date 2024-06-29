@@ -8,6 +8,8 @@ const App = () => {
   useEffect(() => {
     const idToken = localStorage.getItem("idToken");
 
+    
+
     if (idToken) {
       navigate("/home");
     }
