@@ -57,7 +57,7 @@ const SignUp: React.FC = () => {
 
   return (
     <>
-      <div className="flex lg:flex-row xs:flex-col-reverse gap-[118px] xs:mx-5 sm:mx-16 lg:mx-14 xl:mx-auto justify-center h-screen ">
+      <div className="flex lg:flex-row xs:flex-col-reverse gap-[118px] xs:mx-5 sm:mx-16 lg:mx-14 xl:mx-auto justify-center ">
         <div>
           <img
             src={SIGNUP_PHONE}

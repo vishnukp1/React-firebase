@@ -3,7 +3,7 @@ import { LOGO } from "../assets"
 const Logo = () => {
   return (
     <div>
-    <img className="w-[100px] h-[100px]" src={LOGO} alt="" />
+    <img className="lg:w-[100px] lg:h-[100px] xs:ml-2 lg:ml-0" src={LOGO} alt="" />
   </div>
   )
 }
