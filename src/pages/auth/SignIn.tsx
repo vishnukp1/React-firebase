@@ -6,7 +6,7 @@ import { sendOtp } from "../../store/slices/authSlice";
 import { AppDispatch, RootState } from "../../store/Store";
 import { toast } from "react-toastify";
 import { Link, useNavigate } from "react-router-dom";
-import PhoneInput from "react-phone-number-input"; 
+import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 
 const SignIn: React.FC = () => {
@@ -47,7 +47,7 @@ const SignIn: React.FC = () => {
           placeholder="Enter phone number"
           value={phoneNumber}
           onChange={setPhoneNumber}
-          defaultCountry="US" 
+          defaultCountry="US"
         />
         <div id="recaptcha"></div>
         <Button
